@@ -14,17 +14,18 @@ class Person:
             print("You are a teenager.")
         else:
             print("You are old.")
-            
+
     def yearPasses(self):
         # Increment the age of the person in here
         self.age += 1
 
-t = int(input())
+
+t = int(input())as
 for i in range(0, t):
-    age = int(input())         
-    p = Person(age)  
+    age = int(input())
+    p = Person(age)
     p.amIOld()
     for j in range(0, 3):
-        p.yearPasses()       
+        p.yearPasses()
     p.amIOld()
     print("")
